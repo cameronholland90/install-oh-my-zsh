@@ -50,7 +50,7 @@ Once you hit enter it will add the correct directory name to your command withou
 
 For more information you can use the [Oh My Zsh Cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet).
 
-I have also included my .zshrc file so you can add some customization. 
+I have also included my [.zshrc](.zshrc)(zsh equivalent of .bash_profile) file so you can add some customization. If you do not have a .zshrc file in your home(~) directory you can create one. It should already be created by default after installing Oh My Zsh.
 
 ## Contact Me
 
