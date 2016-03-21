@@ -54,4 +54,4 @@ I have also included my [.zshrc](.zshrc)(zsh equivalent of .bash_profile) file s
 
 ## Contact Me
 
-If you have any questions, have some suggestions, or feel like some of the instructions are unclear you can email me at cameron@thenearsky.com. Also you can check out my personal site [cameronholland.me](http://cameronholland.me/).
+If you have any questions, have some suggestions, or feel like some of the instructions are unclear you can email me at cameron@thenearsky.com. Also you can check out my personal site [cameronholland.me](http://cameronholland.me/) or follow me on twitter [xCAMER0Nx](https://twitter.com/xCAMER0Nx).
