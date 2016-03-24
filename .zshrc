@@ -85,7 +85,7 @@ export PATH="$HOME/rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # Example aliases
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="subl ~/.oh-my-zsh"
 alias zshconfig="subl ~/.zshrc"
 
 # My additions
@@ -100,11 +100,11 @@ alias cresources="cd ~/Documents/Codeup/Curriculum\ Resources"
 
 # shortens common vagrant commands
 alias vl="cd ~/vagrant-lamp"
-alias vssh='cd ~/vagrant-lamp && vagrant ssh'
+alias vssh='cd ~/vagrant-lamp && vagrant up && vagrant ssh'
 alias vs='vagrant status'
 alias vh='vagrant halt'
 alias vu='vagrant up'
-alias vreset='vagrant halt && vagrant up'
+alias vr='vagrant reload'
 
 # shortens common github commands
 alias gs="git status"
@@ -139,3 +139,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }
 
 # makes a command
 alias lsdcow="fortune | cowsay | lolcat"
+
+# runs clear when new window in terminal opened
+# alias for clear also runs ls
+clear
