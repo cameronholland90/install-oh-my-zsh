@@ -92,10 +92,11 @@ alias zshconfig="subl ~/.zshrc"
 
 # shortcuts to common folders
 alias westmoreland="cd ~/vagrant-lamp/sites/westmoreland.dev"
+alias cholland="cd ~/vagrant-lamp/sites/cameronholland.dev"
 alias ike="cd ~/vagrant-lamp/sites/ike.dev"
 alias joshua="cd ~/vagrant-lamp/sites/joshua.dev"
 alias home="cd ~"
-alias curriculum="cd ~/Documents/Codeup/Codeup\ Curriculum"
+alias curriculum="cd ~/Documents/Codeup/Codeup\ Curriculum/Curriculum"
 alias cresources="cd ~/Documents/Codeup/Curriculum\ Resources"
 
 # shortens common vagrant commands
@@ -105,6 +106,15 @@ alias vs='vagrant status'
 alias vh='vagrant halt'
 alias vu='vagrant up'
 alias vr='vagrant reload'
+
+# shortens common ansible site commands
+alias apvstatic="ansible-playbook ansible/playbooks/vagrant/site/static.yml"
+alias apvphp="ansible-playbook ansible/playbooks/vagrant/site/php.yml"
+alias apvmysql="ansible-playbook ansible/playbooks/vagrant/mysql/database.yml"
+alias appstatic="ansible-playbook ansible/playbooks/vagrant/site/static.yml"
+alias appphp="ansible-playbook ansible/playbooks/vagrant/site/php.yml"
+alias appmysql="ansible-playbook ansible/playbooks/production/mysql/database.yml"
+alias appmysqlinstall="ansible-playbook ansible/playbooks/production/mysql/install.yml"
 
 # shortens common github commands
 alias gs="git status"
